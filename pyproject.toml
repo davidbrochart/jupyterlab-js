@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jupyterlab-js"
-version = "4.4.2"
+version = "4.4.2.post1"
 description = "A Python package distributing JupyterLab's static assets"
 readme = "README.md"
 authors = [
@@ -37,4 +37,4 @@ ignore-vcs = true
 packages = ["src/jupyterlab_js"]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"share/jupyter/lab/static" = "share/jupyter/lab/static"
+"share/jupyter/lab" = "share/jupyter/lab"

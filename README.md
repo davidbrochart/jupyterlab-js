@@ -7,4 +7,6 @@ curl --output jupyterlab-4.4.2-py3-none-any.whl https://files.pythonhosted.org/p
 unzip jupyterlab-4.4.2-py3-none-any.whl
 mkdir -p share/jupyter/lab
 cp -r jupyterlab-4.4.2.data/data/share/jupyter/lab/static share/jupyter/lab/
+cp -r jupyterlab-4.4.2.data/data/share/jupyter/lab/themes share/jupyter/lab/
+cp -r jupyterlab-4.4.2.data/data/share/jupyter/lab/schemas share/jupyter/lab/
 ```
