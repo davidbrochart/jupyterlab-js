@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jupyterlab-js"
-version = "4.4.2.post2"
+version = "4.4.2.post4"
 description = "A Python package distributing JupyterLab's static assets"
 readme = "README.md"
 authors = [
@@ -30,7 +30,7 @@ requires-python = ">= 3.9"
 Source = "https://github.com/davidbrochart/jupyterlab-js"
 
 [tool.hatch.build.targets.sdist]
-include = ["src/jupyterlab_js"]
+include = ["src/jupyterlab_js", "share"]
 
 [tool.hatch.build.targets.wheel]
 ignore-vcs = true

@@ -9,4 +9,6 @@ mkdir -p share/jupyter/lab
 cp -r jupyterlab-4.4.2.data/data/share/jupyter/lab/static share/jupyter/lab/
 cp -r jupyterlab-4.4.2.data/data/share/jupyter/lab/themes share/jupyter/lab/
 cp -r jupyterlab-4.4.2.data/data/share/jupyter/lab/schemas share/jupyter/lab/
+hatch build
+hatch publish
 ```
