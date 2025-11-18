@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jupyterlab-js"
-version = "4.4.9"
+version = "4.4.10"
 description = "A Python package distributing JupyterLab's static assets"
 readme = "README.md"
 authors = [
@@ -18,13 +18,13 @@ classifiers = [
     "Typing :: Typed",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
 ]
-requires-python = ">= 3.9"
+requires-python = ">= 3.10"
 
 [project.urls]
 Source = "https://github.com/davidbrochart/jupyterlab-js"
