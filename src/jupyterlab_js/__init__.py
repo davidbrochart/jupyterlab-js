@@ -1,8 +1,4 @@
-import importlib.metadata
+from importlib.metadata import version
 
 
-try:
-    __version__ = importlib.metadata.version("jupyterlab_js")
-except importlib.metadata.PackageNotFoundError:
-    __version__ = "unknown"
-
+__version__ = version("jupyterlab_js")
